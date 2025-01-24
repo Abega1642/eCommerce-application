@@ -1,0 +1,11 @@
+.articles {
+    display: flex;
+    border: solid;
+    border-color: rgb(124, 126, 122);
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80dvw;
+    margin-inline: 10dvw;
+    border-radius: 10px;
+}
