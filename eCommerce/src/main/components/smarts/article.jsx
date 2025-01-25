@@ -4,8 +4,8 @@ import './article.css';
 
 export function Article () {
 
-    const buy = () => {
-        console.log("Buy"); 
+    const addToCart = () => {
+        console.log("Add to cart"); 
     }
 
     return (
@@ -15,7 +15,7 @@ export function Article () {
                 <h4>Name of the article</h4>
                 <p>Some details of the article</p>
                 <div>
-                    <Button label="Buy" action={buy}/>
+                    <Button label="Add to cart" action={addToCart}/>
                 </div>
             </div>
         </>
